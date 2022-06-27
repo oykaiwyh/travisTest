@@ -5,7 +5,7 @@ node_js:
 deploy:
   provider: npm
   email: "1641250803@qq.com"
-  api_key: "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" # 需要加密
+  api_key: "" # 需要加密
   on:
     branch: release # 只在release 分支更新时，会进行CI
   skip_cleanup: true # 不用清理缓存
